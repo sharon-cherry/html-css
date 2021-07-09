@@ -1,0 +1,21 @@
+body {
+    background-color: #2020a7;
+}
+img{
+    width: 45%;
+    height: 50vh;
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+    width: 100px;
+    background-color: #7a802d;
+    height: 25px;
+}
+buttonhover{
+    background-color: #21801f;
+    color: #31807e;
+}
+p{
+
+}

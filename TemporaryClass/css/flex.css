@@ -1,0 +1,38 @@
+.flexc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+/*you can also use flex flow*/
+/*space between is more spacier*/
+/*flex start means a default position*/
+#eat1{
+    background-color: #5c8026;
+    color: aqua;
+    order: 2;
+    padding: 20px;
+    margin: 10px;
+}
+#eat2{
+    background-color: #80422e;
+    order: 1;
+    padding: 20px;
+    margin: 10px;
+}
+#eat3{
+    background-color: #80297d;
+    padding: 20px;
+    margin: 10px;
+}
+#eat4{
+    background-color: #0d2580;
+    padding: 20px;
+    margin: 10px;
+}
+@media only screen and (max-width: 364px){
+    .flexc {
+        display: flex;
+        flex-direction: column;
+    }
+}

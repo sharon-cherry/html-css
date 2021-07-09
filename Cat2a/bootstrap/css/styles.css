@@ -1,0 +1,57 @@
+.header{
+    background-image: url(../../resources/img.png);
+    background-size: cover;
+    height: 350px;
+    align-content: center;
+    justify-content: center;
+}
+h1,h3{
+    color: white;
+    text-align: center;
+}
+#y{
+    color: black;
+}
+.u{
+    height: 5vh;
+    width: 100%;
+}
+.r{
+    height: 5vh;
+    width: 100%;
+}
+.p{
+    height:5vh;
+    width: 100%;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+height: 100px;
+}
+.ice{
+    height: 20vh;
+    width: 100%;
+    background-color: #80110e;
+}
+.location{
+    margin-top: 18px;
+    float: right;
+}
+#e,#u{
+    text-align: center;
+    margin-top: 20px;
+}
+.jumbotron,.jumbotron-fluid{
+     background-color: white;
+}
+.really{
+    display: flex;
+    height: 75 px;
+    justify-content: center;
+    margin: auto;
+}
+
+

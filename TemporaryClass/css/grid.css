@@ -1,0 +1,55 @@
+body{
+    background-image: url("../images/imgone.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'one one one one one'
+    'two two three three four'
+    'five five five five five'
+;
+    justify-content: space-around;
+}
+/*how to design grid*/
+#item1{
+    grid-area: one;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../images/flowers_eleven.png");
+}
+#item2{
+    grid-area: two;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../images/flowers_five.jpeg");
+}
+#item3{
+    grid-area: three;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../images/flowers_four.jpeg");
+}
+#item4{
+    grid-area: four;
+    margin: 10px;
+    padding: 10px;
+}
+#item5{
+    grid-area: five;
+    margin: 10px;
+    padding: 10px;
+}
+/*media queries*/
+@media only screen and (max-width: 364px) {
+ .grid-container{
+     display: grid;
+     grid-template-areas:
+             'one one one one one'
+     'two two two four four'
+     'three three three three three'
+     'five five five five five';
+ }
+}
+
